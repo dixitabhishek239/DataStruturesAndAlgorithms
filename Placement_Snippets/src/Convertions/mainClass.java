@@ -20,10 +20,10 @@ public class mainClass {
 //		int octalNumber = scanner.nextInt();
 //		new OctalToDecimal(octalNumber);
 		
-		System.out.println("Hex to Decimal");
-		System.out.print("Hex Number - ");
-		String hexNumber = scanner.nextLine();
-		new HexToDecimal(hexNumber);
+//		System.out.println("Hex to Decimal");
+//		System.out.print("Hex Number - ");
+//		String hexNumber = scanner.nextLine();
+//		new HexToDecimal(hexNumber);
 
 	
 //		System.out.println("Decimal to Binary");
@@ -31,6 +31,11 @@ public class mainClass {
 //		int decimalNumber = scanner.nextInt();
 //		new DecimalToBinary(decimalNumber);
 
+		System.out.println("Decimal to Octal");
+		System.out.print("Decimal Number - ");
+		int octalNumber = scanner.nextInt();
+		new DecimalToOctal(octalNumber);
+	
 
 	}
 
