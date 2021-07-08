@@ -31,10 +31,15 @@ public class mainClass {
 //		int decimalNumber = scanner.nextInt();
 //		new DecimalToBinary(decimalNumber);
 
-		System.out.println("Decimal to Octal");
+//		System.out.println("Decimal to Octal");
+//		System.out.print("Decimal Number - ");
+//		int octalNumber = scanner.nextInt();
+//		new DecimalToOctal(octalNumber);
+		
+		System.out.println("Decimal to Hex");
 		System.out.print("Decimal Number - ");
-		int octalNumber = scanner.nextInt();
-		new DecimalToOctal(octalNumber);
+		int hexNumber = scanner.nextInt();
+		new DecimalToHex(hexNumber);
 	
 
 	}
