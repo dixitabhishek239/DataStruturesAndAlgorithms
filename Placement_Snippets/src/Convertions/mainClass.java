@@ -15,12 +15,15 @@ public class mainClass {
 //		int binaryNumber = scanner.nextInt();
 //		new BinaryToDecimal(binaryNumber);
 	
-		System.out.println("Decimal to Binary");
-		System.out.print("Decimal Number - ");
-		int decimalNumber = scanner.nextInt();
-		new DecimalToBinary(decimalNumber);
+//		System.out.println("Decimal to Binary");
+//		System.out.print("Decimal Number - ");
+//		int decimalNumber = scanner.nextInt();
+//		new DecimalToBinary(decimalNumber);
 
-		
+		System.out.println("Octal to Decimal");
+		System.out.print("Octal Number - ");
+		int octalNumber = scanner.nextInt();
+		new BinaryToDecimal(octalNumber);
 	}
 
 }
