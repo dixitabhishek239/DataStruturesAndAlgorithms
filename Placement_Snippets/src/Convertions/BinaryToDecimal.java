@@ -9,21 +9,19 @@ public class BinaryToDecimal {
 		this.binaryNumber = binaryNumber;
 		
 		String binary = this.binaryNumber.toString();
+		String[] reverseBinary= new String[binary.length()];
 		
-		int decimal = 0;
-
 		for(int i=0; i<binary.length(); i++) {
-			
-			String a = binary.subSequence(i, i+1).toString();
-			//System.out.println(Math.pow(2, i));
-			int temp = (int) (Integer.parseInt(a) * Math.pow(2, i));
-			System.out.println(temp);
-			decimal += temp;
-			//System.out.println("decimal = "+decimal);
-			
+			String temp = ""+binary.charAt(binary.length()-1-i);
+			reverseBinary[i] = temp.toString();
 		}
 		
-		System.out.println(decimal);
+		int decimal = 0;
+		for(int i=0; i<binary.length(); i++) {
+			decimal += Integer.parseInt(reverseBinary[i]) * Math.pow(2, i);	
+		}
+		
+		System.out.println("Decimal Number = "+decimal);
 	}
 
 }
