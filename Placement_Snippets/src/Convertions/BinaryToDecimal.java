@@ -18,7 +18,7 @@ public class BinaryToDecimal {
 		
 		int decimal = 0;
 		for(int i=0; i<binary.length(); i++) {
-			decimal += Integer.parseInt(reverseBinary[i]) * Math.pow(8, i);	
+			decimal += Integer.parseInt(reverseBinary[i]) * Math.pow(2, i);	
 		}
 		
 		System.out.println("Decimal Number = "+decimal);

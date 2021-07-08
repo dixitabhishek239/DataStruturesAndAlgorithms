@@ -21,7 +21,7 @@ public class OctalToDecimal {
 			decimal += Integer.parseInt(reverseOctal[i]) * Math.pow(8, i);	
 		}
 		
-		System.out.println("Octal Number = "+decimal);
+		System.out.println("Decimal Number = "+decimal);
 	}
 
 	
